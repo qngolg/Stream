@@ -19,7 +19,7 @@ public class Demo {
     }
 
     public static List<User> collect = Stream.generate(() -> Math.random() * 100000000)
-            .distinct().limit(1000000)
+            .distinct().limit(10000000)
             .map(u -> new User(u, "name_" + u))
             .collect(toList());
 

@@ -25,6 +25,6 @@ public class ParallelStreamTest {
 
         });
         System.out.println("创建的线程数量："+threadList.size());
-        System.out.println("系统核数： " + Runtime.getRuntime().availableProcessors());
+        System.out.println("系统核数：" + Runtime.getRuntime().availableProcessors());
     }
 }
